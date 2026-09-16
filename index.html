@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tanvi Tumbler | Stylish & Reusable Tumblers</title>
+
+  <meta
+    name="description"
+    content="Explore stylish and reusable tumblers from Tanvi Tumbler. Browse our collection and order directly on WhatsApp."
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar" id="navbar">
+
+  <div class="navbar-inner">
+
+    <!-- BRAND -->
+    <a class="brand" href="#home">
+      <img
+        class="brand-logo"
+        src="logo.jpeg"
+        alt="Korum Tumbler Logo"
+        onerror="this.style.display='none'"
+      >
+      <span class="brand-text">KORUM TUMBLER</span>
+    </a>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+
+      <a href="#home">Home</a>
+
+      <a href="#products">Products</a>
+
+      <a href="#products" data-filter="new-arrivals">
+        New Arrivals
+      </a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+    <!-- NAVBAR ACTIONS -->
+    <div class="navbar-actions">
+
+      <!-- INSTAGRAM ICON -->
+      <a
+        class="instagram-icon"
+        href="https://instagram.com/tanvitumbler"
+        target="_blank"
+        rel="noopener"
+        aria-label="Instagram"
+      >
+
+        <svg
+          viewBox="0 0 24 24"
+          width="20"
+          height="20"
+          aria-hidden="true"
+        >
+
+          <rect
+            x="3"
+            y="3"
+            width="18"
+            height="18"
+            rx="5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          ></rect>
+
+          <circle
+            cx="12"
+            cy="12"
+            r="4"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          ></circle>
+
+          <circle
+            cx="17.5"
+            cy="6.5"
+            r="1"
+            fill="currentColor"
+          ></circle>
+
+        </svg>
+
+      </a>
+
+
+      <!-- WHATSAPP -->
+      <a
+        class="whatsapp-pill"
+        id="navWhatsapp"
+        href="#"
+        target="_blank"
+        rel="noopener"
+      >
+
+        <svg
+          viewBox="0 0 24 24"
+          width="18"
+          height="18"
+          aria-hidden="true"
+        >
+
+          <path
+            fill="currentColor"
+            d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .4 5.2.4 11.7c0 2.1.6 4.1 1.6 5.9L.3 24l6.6-1.7a11.8 11.8 0 0 0 5.2 1.2h.1c6.5 0 11.7-5.2 11.7-11.7 0-3.1-1.2-6.1-3.4-8.3ZM12.2 21.4h-.1c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-3.9 1 1-3.8-.3-.4a9.7 9.7 0 0 1-1.5-5.1c0-5.4 4.4-9.8 9.9-9.8 2.6 0 5.1 1 7 2.9 1.9 1.9 2.9 4.4 2.9 7 0 5.4-4.4 9.8-9.8 9.8Zm5.4-7.3c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-2.9-1.4-4.8-4.2-5-4.5-.2-.3 0-.5.2-.7.2-.2.3-.4.5-.6.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.1 3.1 1.3 3.3c.2.2 2.2 3.4 5.4 4.8.8.4 1.4.6 1.9.8.8.3 1.5.2 2 .1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3Z"
+          ></path>
+
+        </svg>
+
+        <span>WhatsApp Order</span>
+
+      </a>
+
+
+      <!-- MOBILE HAMBURGER -->
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+      </button>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- BANNER IMAGE -->
+<section class="top-banner" id="topBanner">
+
+  <img
+    src="banner.jpeg"
+    alt="Korum Tumbler Banner"
+    onerror="this.onerror=null;this.src='https://placehold.co/1600x500/E7F2EA/315C45?text=Korum+Tumbler';"
+  >
+
+</section>
+
+
+<!-- OFFER BANNER SLIDER -->
+<section class="offer-slider" id="offerSlider" aria-label="Current offers">
+
+  <div class="offer-track" id="offerTrack">
+
+    <div class="offer-slide">
+      <p class="offer-text">
+        🎉 Flat 20% OFF on all Premium Tumblers — Limited Time Only!
+      </p>
+    </div>
+
+    <div class="offer-slide">
+      <p class="offer-text">
+        🚚 Free Shipping on Orders Above ₹1500 — Order via WhatsApp!
+      </p>
+    </div>
+
+    <div class="offer-slide">
+      <p class="offer-text">
+       COD - Not Available
+      </p>
+    </div>
+   
+
+  </div>
+
+  <div class="offer-dots" id="offerDots">
+    <button class="offer-dot active" type="button" data-slide="0" aria-label="Offer 1"></button>
+    <button class="offer-dot" type="button" data-slide="1" aria-label="Offer 2"></button>
+    <button class="offer-dot" type="button" data-slide="2" aria-label="Offer 3"></button>
+  </div>
+
+</section>
+
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+
+    <div class="hero-inner">
+
+      <p class="hero-eyebrow">
+        TANVI TUMBLER
+      </p>
+
+      <h1>
+        Stylish Tumblers for Every Sip
+      </h1>
+
+      <p class="hero-sub">
+        Discover reusable, practical and stylish tumblers
+        designed for everyday life.
+      </p>
+
+      <a
+        class="btn btn-primary"
+        href="#products"
+      >
+        Explore Collection
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- PRODUCTS -->
+  <section
+    class="products-section"
+    id="products"
+  >
+
+    <div class="section-inner">
+
+      <div class="products-heading">
+
+        <h2>
+          Our Collection
+        </h2>
+
+        <span
+          class="products-count"
+          id="productCount"
+        >
+          Showing 0 products
+        </span>
+
+      </div>
+
+
+      <!-- SEARCH + FILTERS -->
+      <div class="controls">
+
+        <div class="search-wrap">
+
+          <svg
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            aria-hidden="true"
+          >
+
+            <circle
+              cx="11"
+              cy="11"
+              r="7"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+            ></circle>
+
+            <path
+              d="m16.5 16.5 4 4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            ></path>
+
+          </svg>
+
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search tumblers..."
+            aria-label="Search tumblers"
+          >
+
+        </div>
+
+
+        <div
+          class="filters"
+          id="filters"
+        >
+
+          <button
+            class="filter-btn active"
+            type="button"
+            data-filter="all"
+          >
+            All
+          </button>
+
+          <button
+            class="filter-btn"
+            type="button"
+            data-filter="new-arrivals"
+          >
+            New Arrivals
+          </button>
+
+          <button
+            class="filter-btn"
+            type="button"
+            data-filter="best-sellers"
+          >
+            Best Sellers
+          </button>
+
+          <button
+            class="filter-btn"
+            type="button"
+            data-filter="travel"
+          >
+            Travel
+          </button>
+
+          <button
+            class="filter-btn"
+            type="button"
+            data-filter="coffee"
+          >
+            Coffee
+          </button>
+
+          <button
+            class="filter-btn"
+            type="button"
+            data-filter="premium"
+          >
+            Premium
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <!-- PRODUCT GRID -->
+      <div
+        class="product-grid"
+        id="productGrid"
+      ></div>
+
+
+      <!-- NO RESULTS -->
+      <p
+        class="no-results"
+        id="noResults"
+        hidden
+      >
+        No products found.
+        Try another search or category.
+      </p>
+
+
+      <!-- LOAD MORE -->
+      <div class="load-more-wrap">
+
+        <button
+          class="btn btn-outline"
+          id="loadMoreBtn"
+          type="button"
+        >
+          Load More
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CTA -->
+  <section class="cta-section">
+
+    <div class="cta-inner">
+
+      <h2>
+        Need help choosing?
+      </h2>
+
+      <p>
+        Message us on WhatsApp and we’ll help you
+        find the right tumbler.
+      </p>
+
+      <a
+        class="btn btn-primary"
+        id="ctaWhatsapp"
+        href="#"
+        target="_blank"
+        rel="noopener"
+      >
+        Chat on WhatsApp
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer
+  class="footer"
+  id="contact"
+>
+
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+
+      <h3>
+        Tanvi Tumbler
+      </h3>
+
+      <p>
+        Stylish and reusable tumblers for everyday life.
+      </p>
+
+    </div>
+
+
+    <div>
+
+      <h4>
+        Quick Links
+      </h4>
+
+      <div class="footer-links">
+
+        <a href="#home">
+          Home
+        </a>
+
+        <a href="#products">
+          Products
+        </a>
+
+        <a
+          href="#products"
+          data-filter="new-arrivals"
+        >
+          New Arrivals
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div>
+
+      <h4>
+        Contact
+      </h4>
+
+      <div class="footer-contact">
+
+        <p>
+          WhatsApp: Order directly from the website
+        </p>
+
+        <p>
+          Instagram:
+          <a
+            href="https://instagram.com/tanvitumbler"
+            target="_blank"
+            rel="noopener"
+          >
+            @tanvitumbler
+          </a>
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    © 2026 Tanvi Tumbler.
+    All rights reserved.
+
+  </div>
+
+</footer>
+
+
+<!-- PRODUCT DETAIL MODAL -->
+<div
+  class="product-modal-overlay"
+  id="productModal"
+  hidden
+>
+
+  <div
+    class="product-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modalProductName"
+  >
+
+    <button
+      class="modal-close"
+      id="modalClose"
+      type="button"
+      aria-label="Close"
+    >
+      &times;
+    </button>
+
+    <div class="modal-image-wrap">
+      <img
+        id="modalProductImage"
+        src=""
+        alt=""
+        onerror="this.onerror=null;this.src='https://placehold.co/500x500/E7F2EA/315C45?text=Tanvi+Tumbler';"
+      >
+    </div>
+
+    <div class="modal-body">
+
+      <span class="modal-category" id="modalProductCategory"></span>
+
+      <h3 id="modalProductName"></h3>
+
+      <div class="modal-price-row">
+        <span class="modal-price" id="modalProductPrice"></span>
+        <span class="modal-original-price" id="modalProductOriginalPrice"></span>
+        <span class="modal-discount-badge" id="modalProductDiscount"></span>
+      </div>
+
+      <p id="modalProductDesc"></p>
+
+      <button
+        class="btn btn-primary modal-order-btn"
+        id="modalOrderBtn"
+        type="button"
+      >
+        Order on WhatsApp
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
